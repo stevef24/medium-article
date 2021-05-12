@@ -1,0 +1,50 @@
+*{
+font-family: 'Courier New', Courier, monospace;  
+}
+.banner {
+background-image: url(https://source.unsplash.com/random); 
+background-size: cover;
+color: white;
+padding: 120px 0px
+}
+
+.container {
+text-align: center;
+width: 700px;
+margin: 50px auto;
+}
+h2 {
+color: grey;
+}
+a {
+  Text-Decoration: none;
+ 
+}
+
+a:hover {
+background: linear-gradient(#e66465, #9198e5);
+}
+p {
+
+}
+
+@media(max-width: 1200px) {
+    .container {
+      width: 700px;
+    }
+  }
+@media(max-width: 992px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media(max-width: 768px) {
+    .container {
+      width: 300px;
+    }
+  }
+  @media(max-width: 576px) {
+    .container {
+      width: 100px;
+    }
+  }
